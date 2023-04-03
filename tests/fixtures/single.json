@@ -1,0 +1,30 @@
+{
+    "available_authors": {
+        "14th-dalai-lama": {
+            "name": "14th Dalai Lama",
+            "bio": "The 14th Dalai Lama (n\u00e9 Lhamo Thondup), known as Gyalwa Rinpoche to the Tibetan people, is the current Dalai Lama, the highest spiritual leader and former head of state of Tibet. Born on 6 July 1935, or in the Tibetan calendar, in the Wood-Pig Year, 5th month, 5th day. He is considered a living Bodhisattva; specifically, an emanation of Avalokite\u015bvara in Sanskrit and Chenrezig in Tibetan.",
+            "description": "Current foremost spiritual leader of Tibet",
+            "link": "https://en.wikipedia.org/wiki/14th_Dalai_Lama",
+            "slug": "14th-dalai-lama",
+            "_id": "76ISAUD3P5"
+        }
+    },
+    "available_quotes": {
+        "82ovA4JWpM": {
+            "author": "The Buddha",
+            "content": "Purity and impurity depend on oneself; no one can purify another.",
+            "tags": [
+                "wisdom",
+                "self",
+                "self-help"
+            ],
+            "_id": "82ovA4JWpM"
+        }
+    },
+    "available_tags": {
+        "athletics": {
+            "name": "athletics",
+            "_id": "qTFouZDPBZz"
+        }
+    }
+}
