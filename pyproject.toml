@@ -7,8 +7,12 @@ authors = [
 ]
 requires-python= ">=3.9"
 dependencies = [
-    "requests"
+    "requests",
+    "click"
 ]
+
+[project.scripts]
+qotd = "qotd.cli:cli"
 
 [build-system]
 requires = [
