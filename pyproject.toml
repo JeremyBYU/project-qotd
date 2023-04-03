@@ -11,6 +11,9 @@ dependencies = [
     "click"
 ]
 
+[project.optional-dependencies]
+dev = ["pytest", "pytest-httpserver"]
+
 [project.scripts]
 qotd = "qotd.cli:cli"
 
@@ -23,3 +26,9 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.package-data]
 qotd = ["*.json"]
+
+[tool.pytest.ini_options]
+addopts = "-rPx -v"
+testpaths = [
+    "tests"
+]
