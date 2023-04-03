@@ -255,6 +255,40 @@ project-qotd
 └─ LICENSE
 ```
 
+# Switching Tags
+
+The evolution of this repository has been tagged according to steps described above. This means that you can switch to different points in time to the repository
+
+You can switch tags by doing the following:
+
+1. `git reset --hard tags/step1`
+2. `git clean -d -x -n`
+
+You can then walk through the history of the repository like so:
+
+1. `git reset --hard tags/step2`
+
+and so on. When you are done, just checkout the last tag
+
+1. `git reset --hard tags/step6.2`
+
+List of all tags:
+
+```bash
+$ git tag
+step0
+step1
+step2
+step3
+step4.1
+step4.2
+step4.3
+step4.4
+step5
+step6.1
+step6.2
+```
+
 
 
 
